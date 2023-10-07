@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>NewzFeed</title>
+</head>
+<body>
+    <div class="header">
+        <div class="menu"><i class="bx bx-menu" id="menu"></i></div>
+        <div class="logo">
+            <h1 class="animate__animated animate__rubberBand"><span>Newz</span>Feed</h1>
+        </div>
+    </div>
+    <div class="page-body">
+        <div class="sidebar" id="sidebar">
+            <a onclick="addnewsCard('all')">All</a>
+            <a onclick="addnewsCard('national')">National</a>
+            <a onclick="addnewsCard('business')">Business</a>
+            <a onclick="addnewsCard('sports')">Sports</a>
+            <a onclick="addnewsCard('world')">World</a>
+            <a onclick="addnewsCard('politics')">Politics</a>
+            <a onclick="addnewsCard('entertainment')">Entertainment</a>
+            <a onclick="addnewsCard('science')">Science</a>
+            <a onclick="addnewsCard('technology')">Technology</a>
+            <a onclick="addnewsCard('startup')">Startup</a>
+            <a onclick="addnewsCard('Automobile')">Automobile</a>
+            <a onclick="addnewsCard('miscellaneous')">Miscellaneous</a>
+        </div>
+        <div class="news-card-container" id="news-card-container">
+        </div>
+    </div>
+    <div class="footer" id="footer">
+                <div class="icons">
+                    <a href="https://github.com/adityakaredla" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/aditya-lakshmi-narayana-karedla-223758201" target="_blank"><i class='bx bxl-linkedin-square'></i> </a>
+                </div>
+                <p> Made by Aditya Karedla | Copyright &copy; by Aditya | All rights reserved</p>
+            </div>
+    <script src="script.js"></script>
+</body>
+</html>
